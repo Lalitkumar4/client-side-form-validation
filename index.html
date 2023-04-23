@@ -2,80 +2,68 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
       crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./style.css" />
-    <title>Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>Create Account</title>
   </head>
   <body>
+    <!-- Form container -->
     <div class="container">
       <div class="header">
         <h2>Create Account</h2>
       </div>
+      <!-- Form start -->
       <form id="form" class="form">
-        <!-- username -->
+        <!-- username field -->
         <div class="form-control">
           <label for="username">Username</label>
-          <input
-            type="text"
-            name="username"
-            id="username"
-            placeholder="Username"
-          />
-          <i class="fas fa-check-circle"></i>
-          <i class="fas fa-exclamation-circle"></i>
+          <input type="text" placeholder="Username" id="username" />
+          <i class="fa-solid fa-circle-check"></i>
+          <i class="fa-solid fa-circle-exclamation"></i>
           <small>Error message</small>
         </div>
 
-        <!-- email -->
+        <!-- Email field -->
         <div class="form-control">
           <label for="email">Email</label>
-          <input
-            type="email"
-            name="email"
-            id="email"
-            placeholder="Email Address"
-          />
-          <i class="fas fa-check-circle"></i>
-          <i class="fas fa-exclamation-circle"></i>
+          <input type="email" placeholder="Email Address" id="email" />
+          <i class="fa-solid fa-circle-check"></i>
+          <i class="fa-solid fa-circle-exclamation"></i>
           <small>Error message</small>
         </div>
 
-        <!-- password -->
+        <!-- Password field -->
         <div class="form-control">
           <label for="password">Password</label>
-          <input
-            type="password"
-            name="password"
-            id="password"
-            placeholder="Password"
-          />
-          <i class="fas fa-check-circle"></i>
-          <i class="fas fa-exclamation-circle"></i>
+          <input type="password" placeholder="password" id="password" />
+          <i class="fa-regular fa-eye-slash"></i>
+          <i class="fa-solid fa-circle-check"></i>
+          <i class="fa-solid fa-circle-exclamation"></i>
           <small>Error message</small>
         </div>
 
-        <!-- password check -->
+        <!-- Confirm Password field -->
         <div class="form-control">
-          <label for="password">Password Match</label>
-          <input
-            type="password"
-            name="password2"
-            id="password2"
-            placeholder="Password"
-          />
-          <i class="fas fa-check-circle"></i>
-          <i class="fas fa-exclamation-circle"></i>
+          <label for="password2">Confirm Password</label>
+          <input type="password" placeholder="Password" id="password2" />
+          <i class="fa-solid fa-circle-check"></i>
+          <i class="fa-solid fa-circle-exclamation"></i>
           <small>Error message</small>
         </div>
+
+        <!-- Submit Button -->
         <button type="submit">Submit</button>
       </form>
     </div>
-    <script src="./app.js"></script>
+
+    <script src="script.js"></script>
   </body>
 </html>

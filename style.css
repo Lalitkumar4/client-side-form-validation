@@ -1,38 +1,38 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap");
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
   background-color: #2b4f64;
+  font-family: "Open Sans", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  margin: 0;
 }
 
+/* container */
 .container {
-  background-color: #ffff;
+  background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
   width: 400px;
   max-width: 100%;
-  overflow: hidden;
 }
 
+/* form header */
 .header {
   background-color: #f7f7f7;
-  padding: 20px 40px;
   border-bottom: 1px solid #f0f0f0;
+  padding: 20px 40px;
 }
 
-.header h2 {
-  margin: 0;
-}
-
+/* form */
 .form {
   padding: 30px 40px;
 }
@@ -59,11 +59,11 @@ body {
 }
 
 .form-control.success input {
-  border-color: #2ecc71;
+  border: 2px solid #2ecc71;
 }
 
 .form-control.error input {
-  border-color: #e74c3c;
+  border: 2px solid #e74c3c;
 }
 
 .form-control i {
@@ -73,12 +73,30 @@ body {
   visibility: hidden;
 }
 
-.form-control.success i.fa-check-circle {
+/* open eye icon */
+.form-control i.fa-eye {
+  position: absolute;
+  top: 40px;
+  right: 35px;
+  visibility: hidden;
+}
+
+/* close eye icon */
+.form-control i.fa-eye-slash {
+  position: absolute;
+  top: 40px;
+  right: 35px;
+  visibility: hidden;
+}
+
+/* check icon */
+.form-control.success i.fa-circle-check {
   color: #2ecc71;
   visibility: visible;
 }
 
-.form-control.error i.fa-exclamation-circle {
+/* error icon */
+.form-control.error i.fa-circle-exclamation {
   color: #e74c3c;
   visibility: visible;
 }
@@ -91,19 +109,20 @@ body {
 }
 
 .form-control.error small {
-  visibility: visible;
   color: #e74c3c;
+  visibility: visible;
 }
 
+/* Submit Button */
 .form button {
   background-color: #2b4f64;
   border: 2px solid #2b4f64;
   border-radius: 4px;
   color: #fff;
   display: block;
-  width: 100%;
+  font-family: inherit;
   font-size: 16px;
   padding: 10px;
-  font-family: inherit;
+  width: 100%;
   cursor: pointer;
 }
