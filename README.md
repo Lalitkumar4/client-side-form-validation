@@ -2,6 +2,5 @@
 This project uses HTML, CSS and JavaScript to validate user input on a form.
 
 
+![screencapture-lalitkumar4-github-io-client-side-form-validation-2023-04-23-21_13_04](https://user-images.githubusercontent.com/64465383/233849846-744eb906-7674-469f-ba93-c5ea007cf115.png)
 
-
-![screencapture-lalitkumar4-github-io-form-validation-2023-03-17-20_56_00](https://user-images.githubusercontent.com/64465383/225948744-42f5fba3-9368-4641-b096-62a8ee5925e3.png)
