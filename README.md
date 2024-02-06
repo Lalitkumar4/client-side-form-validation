@@ -4,10 +4,10 @@ This project uses HTML, CSS and JavaScript to validate user input on a form.
 ## Screenshots
 
 <div align="center">
-  <img src="https://github.com/Lalitkumar4/client-side-form-validation/assets/64465383/2a7c483a-8e9e-451c-bf58-6282efc4bdbf" width="220" height="400" />
-  <img src="https://github.com/Lalitkumar4/client-side-form-validation/assets/64465383/ccc155bc-b53e-40f3-afe3-ee5086a19bbf" width="220" height="400"/>
-  <img src="https://github.com/Lalitkumar4/client-side-form-validation/assets/64465383/51df7ac8-0f51-4de2-b451-98d157ddb9b2" width="220" height="400"/>
-  <img src="https://github.com/Lalitkumar4/client-side-form-validation/assets/64465383/5eabb0e3-56fb-4162-8e8c-7167bc018251" width="220" height="400"/>
+  <img src="https://github.com/Lalitkumar4/client-side-form-validation/assets/64465383/2a7c483a-8e9e-451c-bf58-6282efc4bdbf" width="200" height="300" />
+  <img src="https://github.com/Lalitkumar4/client-side-form-validation/assets/64465383/ccc155bc-b53e-40f3-afe3-ee5086a19bbf" width="200" height="300"/>
+  <img src="https://github.com/Lalitkumar4/client-side-form-validation/assets/64465383/51df7ac8-0f51-4de2-b451-98d157ddb9b2" width="200" height="300"/>
+  <img src="https://github.com/Lalitkumar4/client-side-form-validation/assets/64465383/5eabb0e3-56fb-4162-8e8c-7167bc018251" width="200" height="300"/>
 </div>
 
 ## Features
